@@ -1,0 +1,54 @@
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
+*credential*
+*secret*
+
+# Raw or private evidence
+private/
+raw/
+unsanitised/
+unsanitized/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Evaluation media and archives
+*.iso
+*.img
+*.zip
+*.7z
+*.rar
+
+# VMware artefacts
+*.vmdk
+*.vmem
+*.vmss
+*.vmsd
+*.vmsn
+*.vmx
+*.vmxf
+*.nvram
+*.lck
+*.log
+
+# Windows backup and diagnostic artefacts
+WindowsImageBackup/
+*.etl
+*.evtx
+*.dmp
+
+# Terraform state (Case Study 3)
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
